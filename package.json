@@ -1,0 +1,15 @@
+{
+  "name": "app-web",
+  "version": "1.0.0",
+  "description": "Aplicacion web",
+  "main": "index.js",
+  "scripts": {
+    "test": "tester"
+  },
+  "author": "Willian Cahuaya",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^5.5.4",
+    "firebase-admin": "^6.0.0"
+  }
+}
