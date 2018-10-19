@@ -1,0 +1,30 @@
+1-Crear un proyecto en Firebase, ejemplo: "firebase-demo"
+	https://console.firebase.google.com/
+	
+	documentacion
+	https://firebase.google.com/docs
+	
+	ejemplo:
+	https://hackernoon.com/nodejs-setup-firebase-in-4-step-tutorial-example-easy-beginner-service-account-key-json-node-server-d61e803d6cc8
+	
+	iniciar aplicacion 
+	https://medium.com/google-developer-experts/deploy-your-app-to-firebase-in-seconds-b3a9a37dff47
+	
+2-Crear database si se quiere usar dentro de la misma pagina.
+
+3-Generar el "private key".
+	Project overview --> Configuracion del proyecto --> Cuentas de servicio --> Generar nueva clave pribvada (boton)
+	Guardar en la ruta del proyecto para ser difreccionado mediante un javascript.
+	
+4-paquetes de instalacion
+	$ npm init
+	$ npm install --save firebase
+	$ npm install firebase-admin --save
+	
+	$ npm install -g firebase-tools
+	$ firebase -V
+	$ firebase login
+	$ firebase init
+	$ firebase deploy
+	
+	
